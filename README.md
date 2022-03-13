@@ -29,6 +29,8 @@ Javascript is the language that powers GestaltJS and the apps that developers bu
 
 #### Exercises
 
+- Create a website that through Javascript, it fetches the latest tweets from the [@gestaltjs](https://twitter.com/gestaltjs) account and presents them in the page through [DOM](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction) manipulation.
+
 ### 2. Tooling
 
 One aspect that characterizes Javascript is the need for additional tooling to work with it: Babel, Webpack, Rollup, Vite... For someone learning Javascript fo the first time, it might look surprising that one can't just write Javascript and execute it in the browser or the NodeJS runtime. Many people developing Javascript these days do so without having a good understanding on why the tooling is necessary. However, understanding the role those pieces play, will be beneficial long term. For example, you'll be able to debug issues yourself, or optimize your workflows as the project scales. In this section we'll dive into a bit of history to understand why the tooling is necessary, how they've evolved over time, and how a future without tooling might be possible soon.
