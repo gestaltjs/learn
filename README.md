@@ -28,3 +28,7 @@ Javascript is the language that powers GestaltJS and the apps that developers bu
 - Is Javascript more suitable for CPU or IO bound software?
 
 #### Exercises
+
+### 2. Tooling
+
+One aspect that characterizes Javascript is the need for additional tooling to work with it: Babel, Webpack, Rollup, Vite... For someone learning Javascript fo the first time, it might look surprising that one can't just write Javascript and execute it in the browser or the NodeJS runtime. Many people developing Javascript these days do so without having a good understanding on why the tooling is necessary. However, understanding the role those pieces play, will be beneficial long term. For example, you'll be able to debug issues yourself, or optimize your workflows as the project scales. In this section we'll dive into a bit of history to understand why the tooling is necessary, how they've evolved over time, and how a future without tooling might be possible soon.
