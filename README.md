@@ -17,10 +17,14 @@ Javascript is the language that powers GestaltJS and the apps that developers bu
 - [Rest parameters](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/rest_parameters)
 - [Javascript classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)
 - [What are Pure Functions and Side Effects in JavaScript?](https://blog.greenroots.info/what-are-pure-functions-and-side-effects-in-javascript)
+- [How to use promises](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Promises)
+- [I/O-bound vs CPU-bound in Node.js](https://bytearcher.com/articles/io-vs-cpu-bound/)
 
 #### Questions
 - When would you use plain Javascript objects and when classes?
 - What are the risks of building stateful software?
-
+- When would you use promises and when async/await?
+- If runtimes execute code in a single thread, how is asynchrony achieved?
+- Is Javascript more suitable for CPU or IO bound software?
 
 #### Exercises
