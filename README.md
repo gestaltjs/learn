@@ -19,6 +19,7 @@ Javascript is the language that powers GestaltJS and the apps that developers bu
 - [What are Pure Functions and Side Effects in JavaScript?](https://blog.greenroots.info/what-are-pure-functions-and-side-effects-in-javascript)
 - [How to use promises](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Promises)
 - [I/O-bound vs CPU-bound in Node.js](https://bytearcher.com/articles/io-vs-cpu-bound/)
+- [Javascript engines](https://en.wikipedia.org/wiki/JavaScript_engine)
 
 #### Questions
 - When would you use plain Javascript objects and when classes?
@@ -26,10 +27,12 @@ Javascript is the language that powers GestaltJS and the apps that developers bu
 - When would you use promises and when async/await?
 - If runtimes execute code in a single thread, how is asynchrony achieved?
 - Is Javascript more suitable for CPU or IO bound software?
+- What's the difference between a Javascript runtime and a engine?
 
 #### Exercises
 
 - Create a website that through Javascript, it fetches the latest tweets from the [@gestaltjs](https://twitter.com/gestaltjs) account and presents them in the page through [DOM](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction) manipulation.
+- Use [Javascript modules](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules) to split up the above script into smaller reusable modules.
 
 ### 2. Tooling
 
