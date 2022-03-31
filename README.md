@@ -36,4 +36,36 @@ Javascript is the language that powers GestaltJS and the apps that developers bu
 
 ### 2. Tooling
 
-One aspect that characterizes Javascript is the need for additional tooling to work with it: Babel, Webpack, Rollup, Vite... For someone learning Javascript fo the first time, it might look surprising that one can't just write Javascript and execute it in the browser or the NodeJS runtime. Many people developing Javascript these days do so without having a good understanding on why the tooling is necessary. However, understanding the role those pieces play, will be beneficial long term. For example, you'll be able to debug issues yourself, or optimize your workflows as the project scales. In this section we'll dive into a bit of history to understand why the tooling is necessary, how they've evolved over time, and how a future without tooling might be possible soon.
+One aspect that characterizes Javascript is the need for additional tooling to work with it: [Babel](https://babeljs.io/), [Webpack](https://webpack.js.org/), [Rollup](https://rollupjs.org/guide/en/), [Vite](https://vitejs.dev/)... For someone learning Javascript fo the first time, it might look surprising that one can't just write Javascript and execute it in the browser or the NodeJS runtime. Many people developing Javascript these days do so without having a good understanding on why the tooling is necessary. However, understanding the role those pieces play, will be beneficial long term. For example, you'll be able to debug issues yourself, or optimize your workflows as the project scales. In this section we'll dive into a bit of history to understand why the tooling is necessary, how they've evolved over time, and how a future without tooling might be possible soon.
+
+#### Read
+
+- [What is Babel?](https://babeljs.io/docs/en/)
+- [WTF is a Source Map](https://www.schneems.com/2017/11/14/wtf-is-a-source-map/)
+- [Faster than webpack: JavaScript bundling with esbuild](https://blog.logrocket.com/fast-javascript-bundling-with-esbuild/)
+- [Why Vite](https://vitejs.dev/guide/why.html)
+- [Webpack and Rollup: the same but different](https://medium.com/webpack/webpack-and-rollup-the-same-but-different-a41ad427058c)
+- [Polyfill](https://developer.mozilla.org/en-US/docs/Glossary/Polyfill)
+
+#### Questions
+- What is a Polyfill?
+- What are the pros and cons of Babel?
+- How does ESBuild compare to Webpack?
+- How does Rollup compare to Webpack?
+- What does Vite offer that Webpack doesn't?
+- What are the limitation of Javascript processors written in compiled languages?
+- What'll be necessary to eliminate the need for additional tooling?
+- Why are sourcemaps necessary?
+#### Exercises
+
+- Write a Node application in Typescript and use [`@babel/node`](https://babeljs.io/docs/en/babel-node) with the [`@babel/preset-typescript`](https://babeljs.io/docs/en/babel-preset-typescript) to run your application.
+- Use [esbuild](https://github.com/evanw/esbuild) to bundle and output your application into `dist/`. Output sourcemaps.
+- Add a script that uses [esmo](https://github.com/antfu/esbuild-node-loader) to run your application directly.
+- Repeat the esbuild step but use [Rollup](https://rollupjs.org/guide/en/) to output the bundle into `dist/`. Output sourcemaps.
+- Repeat the esbuild step but use [swc](https://swc.rs/).
+- Create a [Vite](https://vitejs.dev/) application with an `index.html` and a client-side Vue application that mounts in the DOM.
+#### Resources
+- [caniuse](https://caniuse.com/): "Can I use" provides up-to-date browser support tables for support of front-end web technologies on desktop and mobile web browsers.
+
+
+## 3. Module system
